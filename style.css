@@ -1,0 +1,43 @@
+body{
+	width: 80%;
+	margin: auto;
+}
+
+#b{
+	width: 60px;
+	height: 30px;
+	padding: auto;
+}
+
+#in{
+	margin-bottom: 20px;
+	height: 30px;
+}
+#instruction{
+	text-align: left;
+	font-style: italic;
+	font-size: 20;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+}
+.inst{
+	width: 40%;
+	float: left;
+	clear: both;
+}
+.result{
+	width: 50%;
+	float: right;
+	clear: right;
+}
+
+#indicator{
+	width: 200px;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+}

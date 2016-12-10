@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Guess the number</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="ngg.js"></script>
+</head>
+<body>
+	<h1>Guess :</h1>
+	<h2>The number </h2>
+	<div class = "inst">
+		<h3>Guiedline :</h3>
+		<p id="instruction">
+			We will generate a random number in range 0 to 100. You have to find out what number , the system has generated . You are given seven chances to guess the number . With every wrong guess, you will be given a hint whether your assumption is too high/low .
+		</p>
+	
+	<input type = "number" id="in"></input><br>
+	<input type = "button" id ="b" value="Enter" onClick="check()"></input><br>
+	</div>
+	<div class = "result">
+		<br>
+		<br>
+		<br>
+	<p id="preatt">Your previous attempts : </p>
+	<p id="indicator">Indicator  </p>
+	<p id="hint">Hint : </p>
+	</div>
+</body>
+</html>
