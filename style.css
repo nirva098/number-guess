@@ -1,6 +1,14 @@
+html{
+	background: grey;
+}
 body{
 	width: 80%;
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	border-collapse: collapse;
 	margin: auto;
+	padding: 20px;
 }
 
 #b{
